@@ -14,7 +14,7 @@
 - 一般的なキー配列からの移行障壁を最小化するUS配列60%レイアウト
 - ただし、Bキーは左右2つ
 - 最下段の親指/カーソルキー専用Chocキーキャップ一式付き
-- 複数のカラバリに対応（Pure-Black/Red/Sky-Blue/Yellow/Orange/Cool-Grey）
+- 複数のカラバリに対応<br>(Pure-Black/Red/Sky-Blue/Yellow/Orange/Cool-Grey)
 
 コーディングのみならずOfficeやCAD、Illustrator、果てはFPSやRTSなどのゲームにも使えるマルチロールな膝上キーボードを目指して設計しました。
 
@@ -55,18 +55,18 @@
 
 ## キット以外に必要なもの
 
-| 名称|必要数|例|
+| 名称|必要数|参考リンク|
 |------|----|----|
-| ハンダごて|1本|https://www.amazon.co.jp/dp/B006MQD7M4|
-| こて台|1個|https://www.amazon.co.jp/dp/B000TGNWCS|
-| 糸ハンダ|適宜|(https://www.amazon.co.jp/dp/B001PR1L28|
-|六角レンチ（対辺4mm） |2本| https://www.amazon.co.jp/dp/B007R9FKZC|
-|ヘクスローブドライバー (T6)|1本|https://www.amazon.co.jp/dp/B002SQLE90| 
-| Kailh Chocキースイッチ |13個|https://yushakobo.jp/shop/pg1350/|
-| MXキースイッチ |54個|https://talpkeyboard.stores.jp/?category_id=59cf8860ed05e668db003f5d|
-| MXスタビライザー |3個|https://yushakobo.jp/shop/a0500st/|
-| MXキーキャップセット|1セット|https://talpkeyboard.stores.jp/?category_id=59be183f428f2d49120007b1|
-| USB TYPE-Cケーブル|1本|https://www.amazon.co.jp/dp/B081N1W39Y|
+| ハンダごて|1本|[amazon](https://www.amazon.co.jp/dp/B006MQD7M4)|
+| こて台|1個|[amazon](https://www.amazon.co.jp/dp/B000TGNWCS)|
+| 糸ハンダ|適宜|[amazon](https://www.amazon.co.jp/dp/B001PR1L28)|
+|六角レンチ（対辺4mm） |2本|[amazon](https://www.amazon.co.jp/dp/B007R9FKZC)|
+|ヘクスローブドライバー (T6)|1本|[amazon](https://www.amazon.co.jp/dp/B002SQLE90)| 
+| Kailh Chocキースイッチ |13個|[遊舎工房](https://yushakobo.jp/shop/pg1350/)|
+| MXキースイッチ |54個|[TALP KEYBOARD](https://talpkeyboard.stores.jp/?category_id=59cf8860ed05e668db003f5d)|
+| MXスタビライザー |3個|[遊舎工房](https://yushakobo.jp/shop/a0500st/)|
+| MXキーキャップセット|1セット|[TALP KEYBOARD](https://talpkeyboard.stores.jp/?category_id=59be183f428f2d49120007b1)|
+| USB TYPE-Cケーブル|1本|[amazon](https://www.amazon.co.jp/dp/B081N1W39Y)|
 
 ## 仕様
 
