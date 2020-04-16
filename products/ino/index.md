@@ -2,7 +2,7 @@
 
 ![ino](img/ino.jpg)
 
-![デフォルトキーマップ (US)](img/keymap-default.)
+![デフォルトキーマップ](img/keymap-default.svg)
 
 トラックボールを中央に載せた60%キーボードです。
 
