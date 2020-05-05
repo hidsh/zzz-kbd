@@ -46,9 +46,21 @@ LEDが消灯するとマイコンが書込み可能になっています。<br>
 make ino:default:dfu
 ```
 
+## カスタマイズについて
+
+ここからはキーマップ等のカスタマイズの話しとなります。
+
+関係するファイルは主に2つです。
+
+|ファイル|説明|
+|----|----|
+|[qmk_firmware/keyboards/ino/keymaps/default/**keymap.c**](https://github.com/hidsh/qmk_firmware/blob/master/keyboards/ino/keymaps/default/keymap.c)|キーマップやレイヤの変更|
+|[qmk_firmware/keyboards/ino/**config.h**](https://github.com/hidsh/qmk_firmware/blob/master/keyboards/ino/config.h)|ino 独自の設定や BootMagic の設定|
+
+
 ## レイヤ構成
 
-デフォルトのレイヤ構成は下表のとおりです。
+デフォルトのレイヤ構成は下表のようになっています。
 
 |レイヤ番号|説明|
 |------|----|
