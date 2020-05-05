@@ -50,7 +50,7 @@
 |ステンレスパイプ|2本|ケース結合用|
 |M5 六角穴付きボルト|4本|ケース結合用|
 |タッピングねじ (ヘクスローブ)|3本+予備|トラックボールユニット取付け用|
-|M2.6 トラスねじ（+）|8本+予備|スペーサー上側取付け用|
+|M2.6 トラスねじ (+)|8本+予備|スペーサー上側取付け用|
 |M2.6 皿ねじ (+)|8本+予備|スペーサー下側取付け用|
 |M2.6 5mmスペーサー|8本|基板取付け用|
 |Chocキーキャップ|カーソルキー 1U: 4個<br>親指 1U: 2個<br>親指 1.25U: 1個<br>親指 1.5U: 6個|ケースと同色/同素材|
@@ -68,7 +68,7 @@
 |プラスドライバー (No.1)|1本|[amazon/ホーザン D-550-100](https://www.amazon.co.jp/dp/B007R13ONK/)| 
 |Kailh Choc(v1) キースイッチ|13個|[遊舎工房/Kailhロープロファイルスイッチ](https://yushakobo.jp/shop/pg1350/)|
 | MXキースイッチ|US 54個<br>JIS 55個|[TALP KEYBOARD/キースイッチ](https://talpkeyboard.stores.jp/?category_id=59cf8860ed05e668db003f5d)|
-| MXスタビライザー (2U, PCBマウント)|3個|[遊舎工房/MXスイッチ スタビライザー](https://yushakobo.jp/shop/a0500st/)|
+| MXスタビライザー<br>(2U, PCBマウント)|3個|[遊舎工房/MXスイッチ スタビライザー](https://yushakobo.jp/shop/a0500st/)|
 | MXキーキャップセット|1セット|[TALP KEYBOARD/キーキャップセット](https://talpkeyboard.stores.jp/?category_id=59be183f428f2d49120007b1)|
 | USB TYPE-Cケーブル|1本|[amazon/Rampow USB Type C ケーブル](https://www.amazon.co.jp/dp/B081N1W39Y/)|
 
@@ -90,3 +90,8 @@
 |ケース|3Dプリント (ABS)|
 |マイコン|ATMEGA32U4|
 |ファームウェア|QMK Firmware (書込み済)|
+
+----
+## リンク
+- [ino ビルドガイド](./build-guide.md)
+- [ino ファームウェアガイド](./firmware-guide.md)
