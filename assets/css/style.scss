@@ -3,9 +3,9 @@
 // #header_wrap {background-image: url(../../products/ino/img/ino.jpg);}
 #header_wrap .inner {padding: 18px 10px 2px 10px;}
 // #main_content {padding-top: 10px;}
-@import "{{ site.theme }}";
-hr {height: 0px; border-top: 0.2px solid #373737; margin-bottom: 2em; margin-top: 2em;}
-h1 {margin-bottom: 0.5em;}
 .highlight {color: #fff; background-color: #373737; border-radius: 5px; margin:0.5em 0em;}
 th {background-color: #ddd;}
 td {background-color: #fff;}
+@import "{{ site.theme }}";
+hr {height: 0px; border-top: 0.2px solid #373737; margin-bottom: 2em; margin-top: 2em;}
+h1 {margin-bottom: 0.5em;}
