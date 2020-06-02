@@ -28,20 +28,35 @@ make ino:default
 マイコンへの書込みは以下の手順で行います。
 
 1. 書込みコマンドを入力<br>
-ビルド時と同様に、下記のコマンドを入力します。
+ビルド時と同様にコマンドを入力しますが、ブートローダーとして`:avrdude`を指定します。<br>
 ```
 cd 展開したフォルダ/qmk_firmware
 make ino:default:avrdude
 ```
+ビルドが正常に終わると、下記のように待ち状態になります。<br>
+```
+Detecting USB port, reset your controller now.....
+```
 
-1. キーボード裏面のリセットボタンを2回押す<br>
+2. リセットボタンを押す<br>
+待ち状態になったら、キーボード裏面にあるリセットボタンを**2回**押します。<br>
+![リセットボタン](./img/fg-reset-sw.jpg)<br>
 リセットボタンを押すときは、マウスのダブルクリックするときの要領で「チョンチョン」と押します。<br>
-![リセットボタン](./img/fg-reset-sw.jpg)
+うまくいけば、3～5 秒後に書込みが始まります。<br>
 
-1. 書込みが始まる<br>
-書込み中はトラックボールの赤LEDが点滅し、書込みが終了するとトラックボールの赤LEDが再び点灯します。
+3. 書込み確認<br>
+書込み中はトラックボールの赤LEDが点滅し、書込みが終了するとトラックボールの赤LEDが再び点灯します。<br>
+書込みが正常に終わると下記のようになります。<br>
+```
+avrdude: verifying ...
+avrdude: 22120 bytes of flash verified
 
-書込みができないときは、リセットボタンを押す間隔を調整してみてください。
+avrdude: safemode: Fuses OK (E:CB, H:D8, L:FF)
+
+avrdude done.  Thank you.
+```
+
+書込みができないときは、リセットボタンを押す間隔を調整したり、5秒以上待ってからもう一度試してみてください。
 
 ## カスタマイズについて
 
@@ -67,13 +82,14 @@ make ino:default:avrdude
 |14|Raise|
 |15|Lower (割り付けなし)|
 
-0～2のレイヤは QMK Firmware の `BootMagic` により選択可能です。
+初期状態ではレイヤ 0 の Mac向けのキーマップが選択されています。
 
-スペースキーと0～2を同時押ししながら USB ケーブルを接続すことで、Mac/Linux/Windows 向けのキーマップを選択することができます。
+0～2のレイヤは QMK Firmware の BootMagic 機能により選択可能です。<br>
+`スペース`と`0`～`2`を同時押ししながら USB ケーブルを接続すことで、それぞれ Mac/Linux/Windows 向けのキーマップを選択することができます。
 
 選択されたキーマップはマイコンの EEPROM に保存され、次回以降の起動時にも適用されます。
 
-詳細は `config.h` の 下記の部分を参照ください。
+BootMagic のキー割当ては `config.h` の 下記の部分で変更できます。
 
 ```
 /*
@@ -85,9 +101,7 @@ make ino:default:avrdude
 #define BOOTMAGIC_KEY_DEFAULT_LAYER_2             KC_2          // Make layer 2(Windows) the default layer
 #define BOOTMAGIC_KEY_DEFAULT_LAYER_3             KC_NO         // Make layer 3 the default layer
 #define BOOTMAGIC_KEY_DEFAULT_LAYER_4             KC_NO         // Make layer 4 the default layer
-#define BOOTMAGIC_KEY_DEFAULT_LAYER_5             KC_NO         // Make layer 5 the default layer
-#define BOOTMAGIC_KEY_DEFAULT_LAYER_6             KC_NO         // Make layer 6 the default layer
-#define BOOTMAGIC_KEY_DEFAULT_LAYER_7             KC_NO         // Make layer 7 the default layer
+  :
 ```
 
 ## マウスボタン
@@ -100,21 +114,19 @@ make ino:default:avrdude
 |`KC_MSM`|中ボタン|keymap.c|
 |`KC_MSR`|右ボタン|keymap.c|
 
+左右ボタンの入れ替え、他のキーへの割当て、レイヤーでの切り替えなど自由に変更できます。
 
 ## 水平スクロール
 
 `HSCRL`に設定したキーを押しながらスクロールリングを回すと、水平スクロールになります。
 
-デフォルトでは`KC_LSFT`(左シフト)が割り付けられています。
+デフォルトでは左シフト`KC_LSFT`が割当てられています。
 
 |キー値|説明|ファイル|
 |------|----|----|
 |`HSCRL`|水平スクロール時に同時押しするキー|keymap.c| 
 
 ただし、水平スクロールはPCアプリ等の環境により動作しないことがあります。
-
-水平スクロールを無効にする場合はコメントアウトしてください。
-
 
 ## スクロール方向の反転
 
@@ -124,7 +136,7 @@ make ino:default:avrdude
 |------|------|----|----|
 |`SCROLL_INVERT`|**false: そのまま**<br>true: 反転|スクロール方向の反転|config.h|
 
-ただし、この設定はレイヤー切り替えとは独立しているため、環境ごとに切り替えることはできません。
+ただし、この設定はレイヤー切り替えとは独立しているため、各OSごとに切り替えることはできません。
 
 
 ## トラックボールの速度
@@ -139,11 +151,11 @@ make ino:default:avrdude
 
 1°単位でトラックボールの向きを調整できます。
 
-+で反時計方向(CCW)に、-で時計方向(CW)にずらします。デフォルトでは0°です。
++で反時計方向(CCW)に、-で時計方向(CW)にずらします。デフォルト値は 0° です。
 
 |シンボル|値 |説明|ファイル|
 |------|------|----|----|
-|`TRACKBALL_AZIMUTH_ADJ`|-45～45|トラックボールの向き調整|config.h|
+|`TRACKBALL_AZIMUTH_ADJ`|-45(CW) ～ 45(CCW)|トラックボールの向き調整|config.h|
 
 ----
 ## リンク

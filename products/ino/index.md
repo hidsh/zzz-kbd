@@ -44,7 +44,7 @@
 |中央ケース|1個|3Dプリント品(ABS)|
 |左ケース|1個|3Dプリント品(ABS)|
 |右ケース|1個|3Dプリント品(ABS)|
-|Chocキーキャップ|矢印キー 1U: 4個<br>親指 1U: 2個<br>親指 1.25U: 1個<br>親指 1.5U: 6個|印字なし<br>ケースと同色/同素材|
+|Chocキーキャップ|矢印キー 1U: 4個<br>親指 1U: 2個<br>親指 1.25U: 1個<br>親指 1.5U: 6個|印字なし<br>3Dプリント品(ABS)<br>ケースと同色/同素材|
 |左基板|1枚|スイッチ以外は実装済み|
 |右基板|1枚|スイッチ以外は実装済み|
 |トラックボール ユニット|1個|スクロールリング付き|
@@ -78,8 +78,8 @@
 |こて台|1個|[amazon/白光 633-01](https://www.amazon.co.jp/dp/B000TGNWCS/)|
 |糸ハンダ|適宜|[amazon/goot SE-06008](https://www.amazon.co.jp/dp/B001PR1L2S/)|
 |六角レンチ (対辺4mm)|2本|[amazon/トラスコ TRRS40](https://www.amazon.co.jp/dp/B007R9FKZC/)|
-|ヘクスローブドライバー (T6)|1本|[amazon/ANEX No.3543](https://www.amazon.co.jp/dp/B002SQLE90/)| 
-|プラスドライバー (No.1)|1本|[amazon/ホーザン D-550-100](https://www.amazon.co.jp/dp/B007R13ONK/)| 
+|ヘクスローブドライバー (T6)|1本|[amazon/ANEX No.3543](https://www.amazon.co.jp/dp/B002SQLE90/)|
+|プラスドライバー (No.1)|1本|[amazon/ベッセル 500-1-75](https://www.amazon.co.jp/dp/B07N2R7D7H/)|
 
 ## 仕様
 
