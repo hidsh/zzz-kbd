@@ -33,7 +33,8 @@ make ino:default
 cd 展開したフォルダ/qmk_firmware
 make ino:default:avrdude
 ```
-ビルドが正常に終わると、下記のように待ち状態になります。<br>
+
+ビルドが正常に終わると、下記のように待ち状態になります。
 ```
 Detecting USB port, reset your controller now.....
 ```
