@@ -44,7 +44,7 @@ Detecting USB port, reset your controller now.....
 うまくいけば、3～5 秒後に書込みが始まります。<br>
 3. 書込み確認<br>
 書込み中はトラックボールの赤LEDが点滅し、書込みが終了するとトラックボールの赤LEDが再び点灯します。<br>
-書込みが正常に終わると下記のようになります。<br>
+書込みが正常に終わると下記のようになります。
 ```
 avrdude: verifying ...
 avrdude: 22120 bytes of flash verified
