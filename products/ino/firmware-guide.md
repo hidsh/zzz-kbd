@@ -140,7 +140,7 @@ BootMagic のキー割当ては `config.h` の 下記の部分で変更できま
 
 スクロールリングの方向は `SCROLL_INVERT` を `true` にすることで反転できます。
 
-|シンボル|値 (太字はデフォルト)|説明|ファイル|
+|シンボル|値<br>(太字はデフォルト)|説明|ファイル|
 |------|------|----|----|
 |`SCROLL_INVERT`|**false: そのまま**<br>true: 反転|スクロール方向の反転|config.h|
 
@@ -151,7 +151,7 @@ BootMagic のキー割当ては `config.h` の 下記の部分で変更できま
 
 11段階に変更可能です。数字が大きいほど速くなります。
 
-|シンボル|値 (太字はデフォルト)|説明|ファイル|
+|シンボル|値<br>(太字はデフォルト)|説明|ファイル|
 |------|------|----|----|
 |`TRACKBALL_RESOLUTION`|RES2_125CPI (最遅)<br>RES2_250CPI<br>RES2_375CPI<br>**RES2_500CPI**<br>RES2_625CPI<br>RES2_750CPI<br>RES2_850CPI<br>RES2_1000CPI<br>RES2_1125CPI<br>RES2_1250CPI<br>RES2_1375CPI (最速)<br>|トラックボールの速度調整|config.h|
 
@@ -163,7 +163,7 @@ BootMagic のキー割当ては `config.h` の 下記の部分で変更できま
 
 |シンボル|値 |説明|ファイル|
 |------|------|----|----|
-|`TRACKBALL_AZIMUTH_ADJ`|-45(CW) ～ 45(CCW)|トラックボールの向き調整|config.h|
+|`TRACKBALL_AZIMUTH_ADJ`|-45 ～ 45|トラックボールの向き調整|config.h|
 
 ----
 ## リンク
