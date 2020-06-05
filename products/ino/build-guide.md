@@ -260,7 +260,7 @@ MXキーキャップはお好みのものをお使いください。
 |製品名|ボールの色|リンク|備考|
 |---|---|---|---|
 |Kensington Orbit with Scroll Ring K72337|青/ラメ|[Amazon](https://www.amazon.co.jp/dp/B004QE4JXA/)|同梱品|
-|Kensington Orbit with Scroll Ring K72500|シルバー/ラメ|[Amazon](https://www.amazon.co.jp/dp/B084QQ2MB3/)|同梱品と色違い|
+|Kensington Orbit with Scroll Ring K72500|シルバー/ラメ|[Amazon](https://www.amazon.co.jp/dp/B084QQ2MB3/)|同梱品と色違いモデル|
 |Kensington Orbit Optical KT-4327|シルバー/まだら|[Amazon](https://www.amazon.co.jp/dp/B01BXS17TA/)||
 |Logicool TrackMan Marble TM-150r|赤/黒ドット|[Amazon](https://www.amazon.co.jp/dp/B00CBOVSOA/)|若干こすれ感あり|
 |A4Tech WWT-5E|赤?|[Google 画像検索](https://www.google.com/search?q=A4Tech+WWT-5E&tbm=isch)|終息品|
