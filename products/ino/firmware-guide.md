@@ -154,6 +154,7 @@ BootMagic のキー割当ては `config.h` の 下記の部分で変更できま
 |------|------|----|----|
 |`TRACKBALL_RESOLUTION`|RES2_125CPI (最遅)<br>RES2_250CPI<br>RES2_375CPI<br>**RES2_500CPI**<br>RES2_625CPI<br>RES2_750CPI<br>RES2_850CPI<br>RES2_1000CPI<br>RES2_1125CPI<br>RES2_1250CPI<br>RES2_1375CPI (最速)<br>|トラックボールの速度調整|config.h|
 
+
 ## トラックボールの向き
 
 1°単位でトラックボールの向きを調整できます。
@@ -163,6 +164,8 @@ BootMagic のキー割当ては `config.h` の 下記の部分で変更できま
 |シンボル|値 |説明|ファイル|
 |------|------|----|----|
 |`TRACKBALL_AZIMUTH_ADJ`|-45 ～ 45|トラックボールの向き調整|config.h|
+
+右手用もしくは、左手用に調整する場合にお使いください。
 
 ----
 ## リンク
