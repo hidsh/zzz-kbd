@@ -1,5 +1,10 @@
 theme: jekyll-theme-slate
 
+<<<<<<< HEAD
 plugins:
   - jekyll-redirect-from
 
+=======
+vplugins:
+  - jekyll-redirect-from
+>>>>>>> 61768190b7e2df07deffcbf541a19937e00db248
