@@ -1,4 +1,4 @@
 theme: jekyll-theme-slate
 
-plugins:
+vplugins:
   - jekyll-redirect-from
