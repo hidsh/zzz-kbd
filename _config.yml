@@ -2,4 +2,3 @@ theme: jekyll-theme-slate
 
 plugins:
   - jekyll-redirect-from
-
