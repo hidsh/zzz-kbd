@@ -206,6 +206,17 @@ MXキーキャップはお好みのものをお使いください。
 
 ボールを入れると完成です。
 
+この状態でUSBケーブルをつなぐと、ino は Mac用のキーマップで起動します。
+Windows / Linux など、ほかの環境につなぐときは下表のようにキーを押しながらUSBケーブルを接続します。
+
+|接続先|レイヤ番号|
+|------|----|
+|Mac|`SPACE` と `0` |
+|Linux (Ubuntu)|`SPACE` と `1`|
+|Windows|`SPACE` と `2`|
+
+詳しくは[ino ファームウェアガイドのレイヤ構成](./firmware-guide.md#レイヤ構成)をご覧ください。
+
 -----
 
 お疲れさまでした。
@@ -230,9 +241,9 @@ MXキーキャップはお好みのものをお使いください。
 
 また、Choc スイッチは一度分解するとトップハウジングのツメがゆるくなり、キーキャップを外すとトップハウジングごと外れてしまうことがあります。ルブ/スプリング交換したものを使う際はご注意ください。
 
-### トラックボールユニットの取り外し
+### ケースをバラす時の注意
 
-ケースをバラす際は、まず最初にトラックボールユニットを取り外すようにしてください。
+六角穴付きボルトを外してケースを左右にバラす前に、まず最初に**トラックボールユニットを取り外す*ようにしてください。
 
 トラックボールユニットを付けたまま、左右のボルトを緩めてケースを左右に引っ張ると基板上のセンサーがスクロールリングに引っかかり、センサーや基板を破損する恐れがあります。
 
@@ -262,9 +273,10 @@ MXキーキャップはお好みのものをお使いください。
 |Kensington Orbit with Scroll Ring K72337|青/ラメ|[Amazon](https://www.amazon.co.jp/dp/B004QE4JXA/)|同梱品|
 |Kensington Orbit with Scroll Ring K72500|シルバー/ラメ|[Amazon](https://www.amazon.co.jp/dp/B084QQ2MB3/)|同梱品と色違いモデル|
 |Kensington Orbit Optical KT-4327|シルバーグレイ/まだら|[Amazon](https://www.amazon.co.jp/dp/B01BXS17TA/)||
+|Kensington Orbit Fusion K72362JP|赤/ラメ|[Amazon](https://www.amazon.co.jp/dp/B08JGDHXGJ/)||
 |Logicool TrackMan Marble TM-150r|赤/黒ドット|[Amazon](https://www.amazon.co.jp/dp/B00CBOVSOA/)|若干こすれ感あり|
 |A4Tech WWT-5E|赤?|[Google 画像検索](https://www.google.com/search?q=A4Tech+WWT-5E&tbm=isch)|終息品|
-|~~Microsoft Trackball Explorer 2.0~~|~~赤?~~|[猫のトラックボールルーム](http://mineko.fc2web.com/box/tb-room/items/microsoft-trackball-explorer2f.html)|エイプリルフールネタ|
+|~~Microsoft Trackball Explorer 2.0~~|~~赤?~~|[猫のトラックボールルーム](http://mineko.fc2web.com/box/tb-room/items/microsoft-trackball-explorer2f.html)|エイプリルフールネタでした|
 
 イロモノ感が強いですが、他に40mmの球として 卓球のボール、オルゴールボール、水晶玉が見つかりました。
 
