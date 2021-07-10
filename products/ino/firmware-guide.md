@@ -22,7 +22,8 @@ zipファイルを展開したフォルダの`qmk_firmware`フォルダに移動
 
 ```
 cd 展開したフォルダ/qmk_firmware
-make ino:default
+make ino:default            ← US配列
+make ino:jis-default        ← JIS配列
 ```
 
 ## マイコンへの書込み
@@ -34,7 +35,8 @@ make ino:default
 
 ```
 cd 展開したフォルダ/qmk_firmware
-make ino:default:avrdude
+make ino:default:avrdude            ← US配列
+make ino:jis-default:avrdude        ← JIS配列
 ```
 
 ビルドが正常に終わると、下記のように待ち状態になります。<br>
@@ -47,7 +49,7 @@ Detecting USB port, reset your controller now.....
 待ち状態になったら、キーボード裏面にあるリセットボタンを**2回**押します。<br>
 ![リセットボタン](./img/fg-reset-sw.jpg)
 
-リセットボタンを押すときは、マウスのダブルクリックするときの要領で「チョンチョン」と押します。<br>
+リセットボタンを押すときは、マウスのダブルクリックの要領で「チョンチョン」と押します。<br>
 うまくいけば、3～5 秒後に書込みが始まります。<br>
 書込み中はトラックボールの赤LEDが点滅します。
 
@@ -73,7 +75,7 @@ avrdude done.  Thank you.
 
 |ファイル|説明|
 |----|----|
-|[qmk_firmware/keyboards/ino/keymaps/default/**keymap.c**](https://github.com/hidsh/qmk_firmware/blob/master/keyboards/ino/keymaps/default/keymap.c)|キーマップやレイヤの変更|
+|[qmk_firmware/keyboards/ino/keymaps/**default/keymap.c**](https://github.com/hidsh/qmk_firmware/blob/master/keyboards/ino/keymaps/default/keymap.c)<br>or<br>[qmk_firmware/keyboards/ino/keymaps/**jis-default/keymap.c**](https://github.com/hidsh/qmk_firmware/blob/master/keyboards/ino/keymaps/jis-default/keymap.c)|キーマップやレイヤの変更|
 |[qmk_firmware/keyboards/ino/**config.h**](https://github.com/hidsh/qmk_firmware/blob/master/keyboards/ino/config.h)|ino 独自の設定や BootMagic の設定|
 
 
@@ -91,8 +93,13 @@ avrdude done.  Thank you.
 
 初期状態ではレイヤ 0 の Mac向けのキーマップが選択されています。
 
-0～2のレイヤは QMK Firmware の BootMagic 機能により選択可能です。<br>
-`スペース`と`0`～`2`を同時押ししながら USB ケーブルを接続すことで、それぞれ Mac/Linux/Windows 向けのキーマップを選択することができます。
+0～2のレイヤは QMK Firmware の BootMagic 機能により、下記のキーを同時押ししながらUSBケーブルを接続すると選択できます。
+
+|接続先|レイヤ番号|同時押し
+|------|----|---|
+|Mac|0|`スペース` と `0` |
+|Linux (Ubuntu)|1|`スペース` と `1`|
+|Windows|2|`スペース` と `2`|
 
 選択されたキーマップはマイコンの EEPROM に保存され、次回以降の起動時にも適用されます。
 
@@ -106,9 +113,6 @@ BootMagic のキー割当ては `config.h` の 下記の部分で変更できま
 #define BOOTMAGIC_KEY_DEFAULT_LAYER_0             KC_0          // Make layer 0(Mac) the default layer
 #define BOOTMAGIC_KEY_DEFAULT_LAYER_1             KC_1          // Make layer 1(Linux) the default layer
 #define BOOTMAGIC_KEY_DEFAULT_LAYER_2             KC_2          // Make layer 2(Windows) the default layer
-#define BOOTMAGIC_KEY_DEFAULT_LAYER_3             KC_NO         // Make layer 3 the default layer
-#define BOOTMAGIC_KEY_DEFAULT_LAYER_4             KC_NO         // Make layer 4 the default layer
-  :
 ```
 
 ## マウスボタン
@@ -121,7 +125,7 @@ BootMagic のキー割当ては `config.h` の 下記の部分で変更できま
 |`KC_MSM`|中ボタン|keymap.c|
 |`KC_MSR`|右ボタン|keymap.c|
 
-左右ボタンの入れ替え、他のキーへの割当て、レイヤーでの切り替えなどにご使用ください。
+左右ボタンの入れ替え、他のキーへの割当てにご使用ください。
 
 ## 水平スクロール
 
