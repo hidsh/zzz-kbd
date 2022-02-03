@@ -20,7 +20,7 @@
 
 肩の力を抜いた自然な姿勢で「ゆる」コンピューティングライフをお楽しみください。
 
-[BOOTH](https://zzz-kbd.booth.pm/items/2065862)、[遊舎工房(店頭販売のみ)](https://yushakobo.jp/)にて販売中です。
+[BOOTH](https://zzz-kbd.booth.pm/items/2065862)にて販売中です。
 
 ## デフォルトキーマップ
 
