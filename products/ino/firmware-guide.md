@@ -4,7 +4,7 @@
 
 マイコンにはデフォルトキーマップのファームウェアが書込まれています。
 
-キーマップを変更するにはソースファイルを書き換えて、QMK Firmware をビルドしなおす必要があります。
+[VIA](https://caniusevia.com/)や[Remap](https://remap-keys.app/)に対応していないので、キーマップを変更するには GitHubから取得したソースファイルを編集し、QMK Firmware をビルドしなおす必要があります。
 
 ### ビルドツールのインストール
 QMK Firmware ドキュメントの [2. Prepare Your Build Environment](https://docs.qmk.fm/#/newbs_getting_started?id=set-up-your-environment) を参考に、ビルドに必要なツールをインストールします。
