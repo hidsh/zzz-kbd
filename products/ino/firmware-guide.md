@@ -10,7 +10,7 @@
 QMK Firmware ドキュメントの [2. Prepare Your Build Environment](https://docs.qmk.fm/#/newbs_getting_started?id=set-up-your-environment) を参考に、ビルドに必要なツールをインストールします。
 
 ### ソースの取得
-現状では QMK Firmware の本家にマージされてないので、[フォーク](https://github.com/hidsh/qmk_firmware)から最新をダウンロードします。
+QMK Firmware の本家にマージされてないので、[フォーク](https://github.com/hidsh/qmk_firmware)から最新をダウンロードします。
 
 ![github-repos](./img/fg-github.png)
 
