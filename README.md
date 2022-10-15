@@ -3,6 +3,7 @@ Self Made Keyboard Maker
 
 ## DNS setting
 
+- ドメイン名は`zzz-kbd.com`
 - `https://www.zzz-kbd.com/` でアクセスできる
 - `https://zzz-kbd.com/` でアクセスできる
 
