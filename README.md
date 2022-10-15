@@ -1,4 +1,4 @@
-# zzz-kbd
+# zzz-kbd.com
 Self Made Keyboard Maker
 
 ## DNS setting
