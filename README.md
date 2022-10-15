@@ -8,7 +8,10 @@ Self Made Keyboard Maker
 
 設定は以下のように
 
-1. お名前.com のDNS設定
+1. 前提
+まず、`http://hidsh.github.io/zzz-kbd`でちゃんとアクセスできることを確認しておく
+
+2. お名前.com のDNS設定
 
 ![お名前.comの設定](img/dns-onamae.png)
 
@@ -16,7 +19,7 @@ Self Made Keyboard Maker
 - CNAMEレコードはホスト名を`www`にして`hidsh.github.io`で1つ追加
 
 
-2. Github Pages のカスタムドメイン設定
+3. Github Pages のカスタムドメイン設定
 
 ![Github Pagesの設定](img/dns-github-pages.png)
 
