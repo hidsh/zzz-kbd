@@ -20,7 +20,7 @@
 
 肩の力を抜いた自然な姿勢で「ゆる」コンピューティングライフをお楽しみください。
 
-~~[BOOTH](https://zzz-kbd.booth.pm/items/2065862)にて販売中です。~~
+~~[BOOTH](https://zzz-kbd.booth.pm/items/2065862)にて販売中です。~~ ごめんなさい。製造大変すぎたのでディスコンしました。作れる人は[ここ](#リンク)見て作って^^;
 
 ## デフォルトキーマップ
 
@@ -106,5 +106,6 @@
 
 ----
 ## リンク
+- [ino 設計データ](https://github.com/hidsh/kbd-ino-design)
 - [ino ビルドガイド](./build-guide.md)
 - [ino ファームウェアガイド](./firmware-guide.md)
