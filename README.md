@@ -1,5 +1,5 @@
 # zzz-kbd.com
-Self Made Keyboard Maker
+DIY Keyboard Maker
 
 ## DNS setting
 
