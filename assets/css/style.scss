@@ -2,8 +2,4 @@
 ---
 
 @import "{{ site.theme }}";
-
-#container {
-  background-image: none;
-  background: white;
-}
+body {background: white}
