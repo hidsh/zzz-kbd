@@ -9,13 +9,13 @@ description: DIY keyboard Maker
 # show_downloads: ["true" or "false" to indicate whether to provide a download URL]
 # google_analytics: [Your Google Analytics tracking ID]
 # google_analytics_anonymize: false
-darkmode: true
-hide_first_title: false # Useful if README.md is used on both github and pages
+darkmode: false
+hide_first_title: true # Useful if README.md is used on both github and pages
 # logo_url: ./logo.png # Either absolute or relative url
 # syntax_theme: ./syntax.css # Leave empty for default, otherwise link to a pygments stylesheet
 colors:
-    gradient_left: "#155799"
-    gradient_right: "#159957"
+    gradient_left: "#e53935"
+    gradient_right: "#f57c00"
     header: "#fff"
     android_theme: "#000" # this default to gradient_color
     link: "#1e6bb8" # this default to gradient_color
