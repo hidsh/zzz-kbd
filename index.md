@@ -1,3 +1,6 @@
+---
+title: zzz-kbd.com
+---
 
 ## Keyboards
 - [ino](products/ino)
